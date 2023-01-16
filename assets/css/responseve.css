@@ -1,0 +1,260 @@
+ @media  (width<1066px) {
+    .header-content{
+        object-fit: contain;
+        width: 75%;
+        margin-top: 40px;
+    }
+    header h1{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-bottom: 16px;   
+    }
+    header p{
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 400;
+        color: #212025;
+        margin-bottom: 30px;
+        padding-right: 25px;
+    }
+    
+    .header-img{width :25%}
+    .popular h2{font-size: 40px;}
+    .caption h3{font-size: 18px;}
+    .pop-img::before{
+        bottom: -28%;
+    }
+}
+@media(width <= 1140px){
+nav{
+     height: 35px;
+}
+.nav-logo{
+width: 34%;
+text-align:right ;
+}
+.nav-list{
+    height: 60px;
+    background-color:#4c4c4c;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    width:65%;
+    z-index: 555;
+
+}
+.nav-list-items{
+     display: none; 
+    position: absolute;
+    bottom: 0;
+}
+.latest-link::after{
+    content: "";
+    background-color:transparent;
+}
+.nav-icons{
+    text-align: left;
+    width: 32%;
+    font-size: 17px;
+}
+
+label{
+    display: block;
+    padding: 3px 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+label span{margin-left:10px;}
+#menu:checked+.nav-list-items{
+    display: block;
+    background-color: #4c4c4c;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 15rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}.item-navList{
+    padding-bottom: 13px;
+}
+.item-navList a{
+    color: white;
+}
+.sec-video .row{
+    height: 455px;
+}
+
+.distrbut{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+}
+@media(width<851px){
+    .next-video span{
+        font-size: 25px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .last .method{
+        width: 40%;
+    }
+    .last .method:nth-child(3){
+        padding-left: 30px;
+        margin-right: auto;
+    }
+
+        footer .time-zone{
+            width: 100%;
+            text-align: center;
+        }
+        footer .quick-links{
+            text-align: center;
+            width: 100%;
+        }
+        footer .new-products{
+            text-align: center;
+            width: 100%;
+        }
+        footer .support{
+            text-align: center;
+            width: 100%;
+        }
+
+}
+@media(width<800px){
+    .gallery .item:nth-child(1){
+        width: 48%;
+    }
+    .gallery .item:nth-child(2){
+        width: 48%;
+    }  
+    .gallery .item:nth-child(3){
+        width: 100%;
+        flex-direction: row;
+        height: 440px;
+    }
+    .item .part{
+        height: 440px;
+    }
+    .gallery{
+        padding: 50px 0;
+        
+    }
+    .pop-item{
+        width: 45%;
+    }
+    .popular{
+        padding: 0 0;
+    }
+    .popular p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sec-video{
+        margin-top:60px ;
+        height: 400px;}
+    .sec-video .row{height: 400px;}
+    .Choice .about{width: 80%;}
+    .choice-img{width: 100%;}
+ 
+}
+
+@media(width<781px){
+    .header-content{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .header-img{visibility: hidden;}
+    header h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-bottom: 8px;   
+    }
+    header p{
+        font-size: 12px;
+        line-height: 1.3;
+        font-weight: 400;
+        color: #212025;
+        margin-bottom: 15px;
+        padding-right: 8px;
+    }
+
+    .product{
+        width: 47%;
+    }
+    .last .method{
+        width: 80%;
+    }
+
+  
+
+}
+@media(width<611px){
+    .product{
+        width: 100%;
+    }
+    .gallery .item:nth-child(1){
+        width: 100%;
+    }
+    .gallery .item:nth-child(2){
+        width: 100%;
+    }  
+    .gallery .item:nth-child(3){
+        width: 100%;
+        flex-direction: column;
+    }
+    .popular{
+        padding: 50px;
+    }
+    .pop-item{
+        width: 100%;
+    }
+    .popular p{
+        font-size: 12px;
+    }
+  
+}
+@media(width<=486px){
+
+nav{
+    display: block;
+    position: static;
+}
+.nav-logo{
+    width: 30%;
+    margin-right: auto;
+}
+.nav-list{
+position: static;
+width: 90%; 
+margin: auto; 
+ 
+}
+.nav-icons{
+    width: 40%;
+    margin-left: auto;
+   
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
